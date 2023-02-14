@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700");
+
+
+
+.wrapper {
+    height: 100vh;
+  
+
+    background: url("../images/pancakes.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .blueberry-home{
+      padding-left: 0;
+      text-align: left;
+  }
+
+  .home-nav {
+      padding-left: 2%;
+  }
+
+  
+
