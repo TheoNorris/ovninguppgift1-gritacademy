@@ -29,3 +29,39 @@
 
   
 
+  .pancake-text {
+      background-color: F8F9FA;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 5;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: 400;
+      margin: 5%;
+      height: 90%;
+      background: rgba(255, 255, 255, .6);
+      
+  }
+  
+  .about-wrapper {
+    height: 100vh;
+  
+
+    background: url("../images/pancakes.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .about-h1{
+      margin-top: 5%;
+  }
+  
+
