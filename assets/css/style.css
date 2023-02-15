@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700");
-
-
-
 .wrapper {
     height: 100vh;
-  
-
     background: url("../images/pancakes.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,40 +11,37 @@
     justify-content: center;
     text-align: center;
     z-index: 1;
-  }
+}
 
-  .blueberry-home{
-      padding-left: 2%;
-      text-align: left;
-      letter-spacing: 2px;
-  }
+.blueberry-home {
+    padding-left: 2%;
+    text-align: left;
+    letter-spacing: 2px;
+}
 
-  .home-nav {
-      padding-left: 4%;
-      padding-top: 0px;
-      font-size: 20px;
-  }
+.home-nav {
+    padding-left: 4%;
+    padding-top: 0px;
+    font-size: 20px;
+}
 
-  .pancake-text {
-      background-color: F8F9FA;
-      padding-left: 10%;
-      padding-right: 10%;
-      padding-top: 5;
-      font-family: "Montserrat", sans-serif;
-      font-size: 20px;
-      letter-spacing: 1px;
-      font-weight: 400;
-      margin: 5%;
-      height: 90%;
-      background: rgba(255, 255, 255, .6);
-      border-radius: 25px;
-      
-  }
-  
-  .about-wrapper {
+.pancake-text {
+    background-color: F8F9FA;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 5%;
+    height: 90%;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 25px;
+}
+
+.about-wrapper {
     height: 200vh;
-  
-
     background: url("../images/pancakes.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,113 +52,129 @@
     justify-content: center;
     text-align: center;
     z-index: 1;
-  }
+}
 
-  .navbar-fonts {
-      letter-spacing: 1px;
-  }
+.navbar-fonts {
+    letter-spacing: 1px;
+}
 
-  .pancake-pic {
-    
+.pancake-pic {
     height: 50px;
 }
 
-  .about-h1{
-      letter-spacing: 2px;
-      margin-top: 5%;
-      margin-bottom: 3%;
-      text-decoration-line: underline;
-      opacity: 90%;
-  }
-  
-  div.text-center {
-      text-align: left;
-  }
+.about-h1 {
+    letter-spacing: 2px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-decoration-line: underline;
+    opacity: 90%;
+}
 
-  .recipe-pic {
-      max-width: 100%;
-      height: auto;
-  }
+div.text-center {
+    text-align: left;
+}
 
-  .recipe-background {
-      background-color: rgba(237, 237, 237, .8);
-      margin: 30px;
-      padding-top: 20px;
-      border-radius: 25px;
-      line-height: 35px;
-  }
+.recipe-pic {
+    max-width: 100%;
+    height: auto;
+}
 
-  .recipe-ul {
-      padding-left: 0;
-  }
+.recipe-background {
+    background-color: rgba(237, 237, 237, .8);
+    margin: 30px;
+    padding-top: 20px;
+    border-radius: 25px;
+    line-height: 35px;
+}
 
-  .intructions {
-      text-align: left;
-  }
+.recipe-ul {
+    padding-left: 0;
+}
 
-  .instructions-holder {
-      background-color: rgba(255, 255, 255, .6);
-      padding: 10px;
-  }
+.intructions {
+    text-align: left;
+}
 
-  footer {
-      text-align: center;
-      font-size: 15px;
-      letter-spacing: 2px;
-      margin-top: 2%;
-  }
+.instructions-holder {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 10px;
+}
 
-  .social-links {
-      font-size: 30px;
-      letter-spacing: 5px;
-      color: rgba(89, 104, 172, 1);
-      margin-bottom: 1%;
-  }
+footer {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
 
-  .theo-tag {
+.social-links {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: rgba(89, 104, 172, 1);
+    margin-bottom: 1%;
+}
+
+.theo-tag {
     text-decoration-line: none;
-    color:rgba(89, 104, 172, 1);
-  }
+    color: rgba(89, 104, 172, 1);
+}
 
-  .pancake-text {
-      text-align: left;
-  }
+.pancake-text {
+    text-align: left;
+}
 
-  /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .contact-form-container-container {
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contact-form-container-container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-  }
+}
 
-  input[type=submit] {
-      text-align: right;
-      background: rgba(89, 104, 172, 1);
-  }
+input[type=submit] {
+    text-align: right;
+    background: rgba(89, 104, 172, 1);
+}
