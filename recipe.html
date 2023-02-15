@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://kit.fontawesome.com/f14b07e4b8.css" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/f14b07e4b8.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
         <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -13,24 +13,28 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#">Pannkakor</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <a class="navbar-brand" href="#">Pannkakor</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" 
-                        href="index.html">Hem</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="recipe.html">Recept</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Om Oss</a>
-                    </li>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Hem</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"  href="recipe.html">Recept</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontakt oss</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled"></a>
+                      </li>
                     </ul>
+                  </div>
                 </div>
+              </nav>
         </header>
         <div class="about-wrapper">
         <div class="recipe-container container-fluid">
@@ -38,6 +42,32 @@
                 <h1 class="about-h1">Blåbärspannkaka Recept</h1>
                 <p class="about-info">God och spännande variant av den klassiska pannkakan. Blåbärspannkaka är ett mättande och uppskattat alternativ till lunch, middag eller kanske som mellanmål. Servera blåbärspannkakan med en klick vaniljglass.
                 </p>
+
+                <div class="recipe-points">
+                    <div class="container px-4 text-center">
+                        <div class="recipe-background row gx-5">
+                          <div class="col">
+                           <div class="p-3">
+                               
+                                <ul class="recipe-ul" style="list-style-type: none">
+                                <h3>Ingredients</h3>
+                                <li>3 ägg <i class="fa-solid fa-egg"></i></li>
+                                <li>6 dl mjölk <i class="fa-solid fa-cow"></i></li>
+                                <li>2 1/2 dl vetemjöl <i class="fa-solid fa-jar-wheat"></i></li>
+                                <li>1 msk socker <i class="fa-solid fa-cubes-stacked"></i></li>
+                                <li>1/2 tsk salt <i class="fa-solid fa-icicles"></i></li>
+                                <li>300 g djupfrysta blåbär <i class="fa-solid fa-bomb"></i></li>
+                                <li>1/2 dl florsocker <i class="fa-solid fa-cake-candles"></i></li>
+                              </ul>
+                           </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3"><img class="recipe-pic" src="assets/images/pancakerecipe.jpg" alt="pancakes"></div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                </div>
             </div>
         </div>
     </div>

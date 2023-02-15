@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700");
 
 
 
@@ -19,7 +19,7 @@
   }
 
   .blueberry-home{
-      padding-left: 0;
+      padding-left: 2%;
       text-align: left;
   }
 
@@ -27,20 +27,19 @@
       padding-left: 2%;
   }
 
-  
-
   .pancake-text {
       background-color: F8F9FA;
       padding-left: 10%;
       padding-right: 10%;
       padding-top: 5;
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 20px;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       font-weight: 400;
       margin: 5%;
       height: 90%;
       background: rgba(255, 255, 255, .6);
+      border-radius: 25px;
       
   }
   
@@ -61,7 +60,29 @@
   }
 
   .about-h1{
+      letter-spacing: 2px;
       margin-top: 5%;
+      margin-bottom: 3%;
+      text-decoration-line: underline;
+      opacity: 90%;
   }
   
+  div.text-center {
+      text-align: left;
+  }
 
+  .recipe-pic {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .recipe-background {
+      background-color: rgba(237, 237, 237, .8);
+      margin: 30px;
+      padding-top: 20px;
+      border-radius: 25px;
+  }
+
+  .recipe-ul {
+      padding-left: 0;
+  }
